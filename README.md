@@ -26,44 +26,39 @@ Condition B (Dynamic Blur): The blur intensity dynamically changed based on the 
 
 Condition C (Static Maximum Blur): A fixed maximum blur intensity (100%) was maintained for the entire duration of the session.
 
-Type of Data Collected
-The dataset is multimodal, including physiological, behavioral, and subjective data.
+Data Collected
+The dataset is multimodal, including physiological, behavioral, and subjective data. The data points were collected at a high frequency to capture subtle changes in user response.
 
-Subjective Ratings:
+Subjective Ratings
+Simulator Sickness Questionnaire (SSQ): Administered pre- and post-session to quantify nausea, oculomotor strain, and disorientation.
 
-Simulator Sickness Questionnaire (SSQ): Administered before and after each session to assess nausea, oculomotor strain, and disorientation.
+Fast Motion Sickness Scale (FMS): Self-reported scores were recorded every 30 seconds during the simulation for real-time sickness assessment.
 
-Fast Motion Sickness Scale (FMS): Self-reported scores were recorded every 30 seconds during the simulation.
+Igroup Presence Questionnaire (IPQ): Completed post-session to evaluate the user's sense of presence in the virtual environment.
 
-Igroup Presence Questionnaire (IPQ): Completed after each session to evaluate the sense of presence in the virtual environment.
+Physiological Data
+Electrocardiogram (ECG): Captured with a Shimmer3 ECG unit to monitor heart activity.
 
-Physiological Data:
+Galvanic Skin Response (GSR): Measured via a Shimmer GSR unit to track skin conductance, an indicator of autonomic arousal.
 
-Electrocardiogram (ECG): Collected using a Shimmer3 ECG unit.
+Tracking Data
+Eye Tracking: From the HP Reverb Omnicept headset, including gaze position (where the user is looking) and pupil dilation.
 
-Galvanic Skin Response (GSR): Collected using a Shimmer GSR unit.
-
-Tracking Data:
-
-Eye Tracking: Collected from an HP Reverb Omnicept headset. Data includes gaze position and pupil dilation.
-
-Head Tracking: Collected from the HP Reverb Omnicept headset. Data includes head position and orientation.
+Head Tracking: From the HP Reverb Omnicept headset, capturing head position and orientation.
 
 Equipment
+The study utilized a state-of-the-art VR setup and specialized physiological sensors to ensure high-fidelity data collection.
+
 VR Headset: HP Reverb Omnicept Edition G2
 
-Display Resolution: 2160x2160 pixels per eye
+Display: 2160x2160 pixels per eye at a 90 Hz refresh rate.
 
-Refresh Rate: 90 Hz
-
-Features: Built-in eye and head tracking via the HP Omnicept SDK.
+Built-in features: Integrated eye and head tracking via the HP Omnicept SDK.
 
 Physiological Sensors:
 
-Shimmer3 ECG Unit
-
-Shimmer GSR Unit
 
 
 
-VR Environment: A roller coaster simulation created in Unity 3D.
+VR Environment: A roller coaster simulation built in Unity 3D, designed to induce motion cues.
+
