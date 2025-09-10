@@ -55,10 +55,14 @@ Display: 2160x2160 pixels per eye at a 90 Hz refresh rate.
 
 Built-in features: Integrated eye and head tracking via the HP Omnicept SDK.
 
-Physiological Sensors:
+Physiological Sensors: Shimmer 3 ECG and GSR
 
 
 
 
 VR Environment: A roller coaster simulation built in Unity 3D, designed to induce motion cues.
+Dataset folder:
+Data was collected from 2 different university which is given in 2 folder. SSQ folder has pre and post SSQ for both universities.
+Pilot study data is also shared here. The sampling rate for ECG was 512, GSR (128), Eye tracking (120) Hz respectively. The files are labeled with FMS.
+
 
