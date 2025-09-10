@@ -2,7 +2,7 @@ Cybersickness Dataset with Real-Time Reduction Techniques
 Overview
 This dataset, derived from a study on cybersickness in virtual reality (VR), is designed to facilitate research into real-time visual comfort strategies. It contains multimodal data collected from participants during a VR roller coaster simulation under three different visual conditions: no blur, static maximum blur, and real-time dynamic blur.
 
-Participants
+Participants:
 A total of 38 participants (21 male, 17 female) took part in the study. The ages ranged from 18 to 59 years, with a mean age of 26.3 (SD=7.2). Participants were recruited from two universities and included students and members of the general public.
 
 Demographics:
