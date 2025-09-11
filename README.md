@@ -53,7 +53,7 @@ VR Headset: HP Reverb Omnicept Edition G2
 
 Display: 2160x2160 pixels per eye at a 90 Hz refresh rate.
 
-Built-in features: Integrated eye and head tracking via the HP Omnicept SDK.
+Built-in features: Integrated eye and head tracking via the HP Omnicept.
 
 Physiological Sensors: Shimmer 3 ECG and GSR
 
