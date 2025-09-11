@@ -1,7 +1,7 @@
 Cybersickness Dataset with Real-Time Reduction Techniques
 Overview
 This dataset, derived from a study on cybersickness in virtual reality (VR), is designed to facilitate research into real-time visual comfort strategies. It contains multimodal data collected from participants during a VR roller coaster simulation under three different visual conditions: no blur, static maximum blur, and real-time dynamic blur.
-
+Dataset link : https://drive.google.com/drive/folders/1wEc2Wi2zSRgReCic_n56OtDfghARNDDK?usp=sharing
 Participants:
 A total of 38 participants (21 male, 17 female) took part in the study. The ages ranged from 18 to 59 years, with a mean age of 26.3 (SD=7.2). Participants were recruited from two universities and included students and general public.
 
@@ -61,6 +61,8 @@ Physiological Sensors: Shimmer 3 ECG and GSR
 
 
 VR Environment: A roller coaster simulation built in Unity 3D, designed to induce motion cues.
+
+
 Dataset folder: Here is the dataset folder: https://drive.google.com/drive/folders/1wEc2Wi2zSRgReCic_n56OtDfghARNDDK?usp=sharing
 Data was collected from 2 different university which is given in 2 folder -Uni 1 data and Uni 2 data. SSQ folder in github has pre and post SSQ for both universities.
 Pilot study data is also shared here. The sampling rate for ECG was 512, GSR (128), Eye tracking (120) Hz respectively. The files are labeled with FMS.
