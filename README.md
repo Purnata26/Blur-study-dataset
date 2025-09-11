@@ -61,8 +61,8 @@ Physiological Sensors: Shimmer 3 ECG and GSR
 
 
 VR Environment: A roller coaster simulation built in Unity 3D, designed to induce motion cues.
-Dataset folder:
-Data was collected from 2 different university which is given in 2 folder. SSQ folder has pre and post SSQ for both universities.
+Dataset folder: Here is the dataset folder: https://drive.google.com/drive/folders/1wEc2Wi2zSRgReCic_n56OtDfghARNDDK?usp=sharing
+Data was collected from 2 different university which is given in 2 folder -Uni 1 data and Uni 2 data. SSQ folder in github has pre and post SSQ for both universities.
 Pilot study data is also shared here. The sampling rate for ECG was 512, GSR (128), Eye tracking (120) Hz respectively. The files are labeled with FMS.
 
 
