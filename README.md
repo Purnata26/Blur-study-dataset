@@ -1,7 +1,7 @@
 # Cybersickness Dataset with Real-Time Reduction Techniques
 
 ## Overview
-
+![ Overview](data.png)
 This dataset is derived from a controlled study on **cybersickness in virtual reality (VR)** environments. It is designed to support research into **real-time visual comfort techniques** by providing multimodal data collected during immersive VR experiences under different visual conditions.
 
 - **Study Focus**: Real-time reduction of cybersickness using dynamic blur techniques.
