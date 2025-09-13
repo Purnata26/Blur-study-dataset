@@ -59,7 +59,7 @@ All sessions were conducted using high-fidelity hardware:
 
 Participants completed an IRB-approved informed consent process, received rest breaks between conditions, and were compensated **$30/hour** with parking validation provided.
 The following diagram provides an overview of the experimental flow:
-![Experimental Procedure Overview](Untitled Diagram (4) (1).png)
+![Experimental Procedure Overview](pic1.png)
 ## Data Collected
 
 
