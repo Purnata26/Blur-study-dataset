@@ -30,46 +30,38 @@ This dataset is derived from a controlled study on **cybersickness in virtual re
 - **Gaming Experience**:  
   - Mean score: 3.3 (SD = 1.4) on a 5-point scale
 
-- **Corrective Lenses**:  
-  - 47.4% wore glasses or contacts
 
-- **Reported Conditions**:  
-  - 5 participants reported motion sickness  
-  - 3 participants reported frequent headaches or migraines
+## Methodology of Data collection
 
----
+This dataset was generated through a controlled experimental study designed to evaluate **real-time mitigation techniques for cybersickness** in virtual reality (VR). A preliminary **pilot study** involving 14 participants allowed individuals to manually adjust the visual blur level during a 3-minute VR roller coaster simulation, while self-reporting **Fast Motion Sickness (FMS)** scores every 30 seconds. Since participant responses lacked consistency, a **linear blur mapping strategy** was implemented in the main study — for example, an FMS score of 7 would result in a blur intensity of 70%.
 
-## Experimental Conditions
+The main study included **38 participants**, each exposed to three **counterbalanced experimental conditions**:
 
-Each participant experienced **three counterbalanced conditions**, each lasting ~7 minutes in a VR roller coaster simulation:
+1. **No Blur (Condition A)**: VR simulation with blur intensity fixed at 0%.
+2. **Dynamic Blur (Condition B)**: Blur level adjusted in real-time based on FMS scores (e.g., FMS 7 = 70% blur).
+3. **Static Maximum Blur (Condition C)**: Constant blur intensity fixed at 100% for the entire session.
 
-### Condition A - No Blur
-- Blur intensity = 0%
+Each VR session lasted approximately **3 minutes**. During these sessions, the following data types were collected:
 
-### Condition B - Dynamic Blur
-- Blur intensity adjusted in real-time based on FMS score  
-  - e.g., FMS score of 7 → 70% blur
 
-### Condition C - Static Maximum Blur
-- Constant blur at 100% throughout the session
+- **Subjective Ratings**:
+  - **Simulator Sickness Questionnaire (SSQ)** – before and after each session
+  - **Fast Motion Sickness Scale (FMS)** – every 30 seconds during VR
+  - **Igroup Presence Questionnaire (IPQ)** – post-session
 
----
+The **VR environment** was a roller coaster simulation built in Unity, adapted from a prior study by Islam et al. Each ride cycle lasted about 57 seconds with a 10-second break before repeating. While users could freely look around, the roller coaster path was fixed and non-interactive.
 
+A key innovation in this study was the use of **Foveated Gaussian Blur**, which varies blur intensity based on distance from the user’s gaze. This approach maintains clarity in central vision while blurring the periphery to reduce sensory overload and mitigate cybersickness. Blur levels were adjustable via keyboard or controller, mapped to keys 0–9 (with `-` representing maximum blur at 1.0).
+
+All sessions were conducted using high-fidelity hardware:
+- **VR Headset**: HP Reverb Omnicept G2 (2160×2160 resolution)
+- **Physiological Sensors**: Shimmer3 ECG and GSR units
+
+Participants completed an IRB-approved informed consent process, received rest breaks between conditions, and were compensated **$30/hour** with parking validation provided.
+The following diagram provides an overview of the experimental flow:
+![Experimental Procedure Overview](Untitled Diagram (4) (1).png)
 ## Data Collected
 
-The dataset is **multimodal**, including subjective, physiological, and behavioral data.
-
-### Subjective Measures
-
-- **Simulator Sickness Questionnaire (SSQ)**  
-  - Administered pre- and post-session  
-  - Measures: nausea, oculomotor strain, disorientation
-
-- **Fast Motion Sickness Scale (FMS)**  
-  - Self-reported every 30 seconds during simulation
-
-- **Igroup Presence Questionnaire (IPQ)**  
-  - Completed post-session to assess sense of presence
 
 ### Physiological Data
 
@@ -101,14 +93,6 @@ Includes:
 | Built-in Tracking | Eye and head tracking |
 | Sensors | Shimmer3 ECG & GSR units |
 
----
-
-## VR Environment
-
-- Built in **Unity 3D**
-- Custom **roller coaster simulation** designed to induce motion cues
-
----
 
 ## Dataset Folder Structure
 
