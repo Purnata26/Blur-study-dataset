@@ -7,7 +7,7 @@ This dataset is derived from a controlled study on **cybersickness in virtual re
 - **Study Focus**: Real-time reduction of cybersickness using dynamic blur techniques.
 - **VR Environment**: Roller coaster simulation designed to induce motion-related discomfort.
 - **Dataset Access**: [Google Drive Link](https://drive.google.com/file/d/1PKDxODr1tlMKOxT9dF4v5fV2VwJogKiw/view?usp=sharing)
-- **Dataset Paper**: (dataset_p.pdf)
+- **Dataset Paper**: [Dataset Paper](dataset_p.pdf)
 
 ---
 
