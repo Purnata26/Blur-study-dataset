@@ -42,7 +42,7 @@ The main study included **38 participants**, each exposed to three **counterbala
 2. **Dynamic Blur (Condition B)**: Blur level adjusted in real-time based on FMS scores (e.g., FMS 7 = 70% blur).
 3. **Static Maximum Blur (Condition C)**: Constant blur intensity fixed at 100% for the entire session.
 
-Here you will be able to find the video of the simulation in 3 conditions : No blur, DB and MB : (videos)[https://osf.io/v27wb/overview?view_only=412b36cd38744e4895ddd747d4f7d864]
+Here you will be able to find the video of the simulation in 3 conditions : No blur, DB and MB : [videos](https://osf.io/v27wb/overview?view_only=412b36cd38744e4895ddd747d4f7d864)
 
 
 Each VR session lasted approximately **3 minutes**. During these sessions, the following data types were collected:
